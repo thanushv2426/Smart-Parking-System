@@ -77,6 +77,17 @@ http://localhost:8080
 - Password: 123456789
 
 ---
+##  API Endpoints : 
+| Method | Endpoint               | Description           |
+| ------ | ---------------------- | --------------------- |
+| POST   | /api/parking/slot      | Create a parking slot |
+| GET    | /api/parking/slots     | Get all parking slots |
+| GET    | /api/parking/available | Get available slots   |
+| POST   | /api/parking/park      | Park a vehicle        |
+| POST   | /api/parking/remove    | Remove a vehicle      |
+
+
+---
 
 👨‍💻 Author
 
